@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>두 자리 곱셈</title>
+    <style>
+      .container {
+        width: 830px;
+        height: 1100px;
+        margin: auto;
+      }
+      #info {
+        padding: 0px 50px 0px 50px;
+        margin-bottom: 20px;
+        border: 1px solid gray;
+      }
+      #info h4 {
+        width: 80%;
+        display: inline-block;
+      }
+      #info p {
+        display: inline;
+        text-align: right;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-gap: 25px 10px;
+      }
+      .mul {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+      }
+      .wrapper p {
+        text-align: right;
+        padding-right: 20px;
+      }
+      span {
+        padding: 0px 10px 0px 10px;
+        font-weight: 700;
+        font-size: 20px;
+      }
+      .left-align {
+        text-align: right;
+        margin-right: 20px;
+      }
+      hr {
+        width: 80%;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="info">
+        <h4></h4>
+        <p>이름 :</p>
+      </div>
+      <div class="wrapper">
+        <div class="mul">
+          <p><span class="num1"></span><span class="num2"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num3"></span
+            ><span class="num4"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num5"></span><span class="num6"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num7"></span
+            ><span class="num8"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num9"></span><span class="num10"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num11"></span
+            ><span class="num12"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num13"></span><span class="num14"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num15"></span
+            ><span class="num16"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num17"></span><span class="num18"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num19"></span
+            ><span class="num20"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num21"></span><span class="num22"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num23"></span
+            ><span class="num24"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num25"></span><span class="num26"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num27"></span
+            ><span class="num28"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num29"></span><span class="num30"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num31"></span
+            ><span class="num32"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num33"></span><span class="num34"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num35"></span
+            ><span class="num36"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num37"></span><span class="num38"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num39"></span
+            ><span class="num40"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num41"></span><span class="num42"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num43"></span
+            ><span class="num44"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num45"></span><span class="num46"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num47"></span
+            ><span class="num48"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num49"></span><span class="num50"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num51"></span
+            ><span class="num52"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num53"></span><span class="num54"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num55"></span
+            ><span class="num56"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num57"></span><span class="num58"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num59"></span
+            ><span class="num60"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num61"></span><span class="num62"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num63"></span
+            ><span class="num64"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num65"></span><span class="num66"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num67"></span
+            ><span class="num68"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num69"></span><span class="num70"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num71"></span
+            ><span class="num72"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num73"></span><span class="num74"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num75"></span
+            ><span class="num76"></span>
+          </p>
+          <hr />
+        </div>
+        <div class="mul">
+          <p><span class="num77"></span><span class="num78"></span></p>
+          <p>
+            <span class="left-align">x</span><span class="num79"></span
+            ><span class="num80"></span>
+          </p>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const now = new Date();
+    const dayOfWeek = ["일", "월", "화", "수", "목", "금", "토"];
+    const today = `${now.getFullYear()}년 ${
+      now.getMonth() + 1
+    }월 ${now.getDate()}일 ${dayOfWeek[now.getDay()]}요일 `;
+    document.querySelector("h4").innerText = today;
+    for (let i = 1; i <= 80; i++) {
+      const random = Math.floor(Math.random() * 9) + 1;
+      document.querySelector(`.num${i}`).innerText = random;
+    }
+  </script>
+</html>
